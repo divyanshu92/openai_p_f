@@ -4,7 +4,7 @@ async function main() {
     try {
         let prompt = 'Say this is a test'
 
-        const configuration = new Configuration({apiKey: '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'});
+        const configuration = new Configuration({apiKey: ''});
         const openai = new OpenAIApi(configuration);
         const completion = await openai.createCompletion({
             model: "text-davinci-003",
